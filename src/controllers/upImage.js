@@ -4,7 +4,6 @@ const multer = require("multer");
 
 const basePath = path.join(__dirname, "../images");
 const metadataPath = path.join(__dirname, "../../metadata.json");
-
 if (!fs.existsSync(metadataPath)) {
   fs.writeFileSync(metadataPath, "{}");
 }
