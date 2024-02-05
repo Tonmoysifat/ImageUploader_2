@@ -28,7 +28,7 @@
       <button type="submit" class="btn btn-primary">Upload</button>
     </form>
     <div class="row gy-5 mb-5">
-      <h2 class="text-center">Your images</h2>
+      <h2 class="text-center">"Your images"</h2>
       <% data.forEach(element=> { %>
         <div class="col-12 col-md-4">
           <div class="card shadow">
@@ -46,13 +46,6 @@
             </div>
           </div>
         </div>
-
-
-
-
-        <!-- <img src="<%= element.fileName %>" class="img-fluid" alt="">
-        <a href="/download/<%= element.fileName %>" class="btn btn-secondary" download>Download</a>
-        <a href="/delete/<%= element.fileName %>" class="btn btn-danger">delete</a> -->
         <% }) %>
     </div>
   </div>
